@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147E6F1F1C3E7F65004BDCBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E6F1E1C3E7F65004BDCBB /* main.m */; };
+		147E6F221C3E7F65004BDCBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E6F211C3E7F65004BDCBB /* AppDelegate.m */; };
+		147E6F251C3E7F65004BDCBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E6F241C3E7F65004BDCBB /* ViewController.m */; };
+		147E6F281C3E7F65004BDCBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147E6F261C3E7F65004BDCBB /* Main.storyboard */; };
+		147E6F2B1C3E7F66004BDCBB /* pointntap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 147E6F291C3E7F66004BDCBB /* pointntap.xcdatamodeld */; };
+		147E6F2D1C3E7F66004BDCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E6F2C1C3E7F66004BDCBB /* Assets.xcassets */; };
+		147E6F301C3E7F66004BDCBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147E6F2E1C3E7F66004BDCBB /* LaunchScreen.storyboard */; };
+		147E6F3B1C3E7F66004BDCBB /* pointntapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E6F3A1C3E7F66004BDCBB /* pointntapTests.m */; };
+		147E6F461C3E7F66004BDCBB /* pointntapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E6F451C3E7F66004BDCBB /* pointntapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147E6F371C3E7F66004BDCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147E6F121C3E7F65004BDCBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147E6F191C3E7F65004BDCBB;
+			remoteInfo = pointntap;
+		};
+		147E6F421C3E7F66004BDCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147E6F121C3E7F65004BDCBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147E6F191C3E7F65004BDCBB;
+			remoteInfo = pointntap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		147E6F1A1C3E7F65004BDCBB /* pointntap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pointntap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147E6F1E1C3E7F65004BDCBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		147E6F201C3E7F65004BDCBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		147E6F211C3E7F65004BDCBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		147E6F231C3E7F65004BDCBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		147E6F241C3E7F65004BDCBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		147E6F271C3E7F65004BDCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147E6F2A1C3E7F66004BDCBB /* pointntap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pointntap.xcdatamodel; sourceTree = "<group>"; };
+		147E6F2C1C3E7F66004BDCBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		147E6F2F1C3E7F66004BDCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		147E6F311C3E7F66004BDCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147E6F361C3E7F66004BDCBB /* pointntapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointntapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147E6F3A1C3E7F66004BDCBB /* pointntapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointntapTests.m; sourceTree = "<group>"; };
+		147E6F3C1C3E7F66004BDCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147E6F411C3E7F66004BDCBB /* pointntapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointntapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147E6F451C3E7F66004BDCBB /* pointntapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointntapUITests.m; sourceTree = "<group>"; };
+		147E6F471C3E7F66004BDCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147E6F171C3E7F65004BDCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147E6F331C3E7F66004BDCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147E6F3E1C3E7F66004BDCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147E6F111C3E7F65004BDCBB = {
+			isa = PBXGroup;
+			children = (
+				147E6F1C1C3E7F65004BDCBB /* pointntap */,
+				147E6F391C3E7F66004BDCBB /* pointntapTests */,
+				147E6F441C3E7F66004BDCBB /* pointntapUITests */,
+				147E6F1B1C3E7F65004BDCBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		147E6F1B1C3E7F65004BDCBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147E6F1A1C3E7F65004BDCBB /* pointntap.app */,
+				147E6F361C3E7F66004BDCBB /* pointntapTests.xctest */,
+				147E6F411C3E7F66004BDCBB /* pointntapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147E6F1C1C3E7F65004BDCBB /* pointntap */ = {
+			isa = PBXGroup;
+			children = (
+				147E6F201C3E7F65004BDCBB /* AppDelegate.h */,
+				147E6F211C3E7F65004BDCBB /* AppDelegate.m */,
+				147E6F231C3E7F65004BDCBB /* ViewController.h */,
+				147E6F241C3E7F65004BDCBB /* ViewController.m */,
+				147E6F261C3E7F65004BDCBB /* Main.storyboard */,
+				147E6F2C1C3E7F66004BDCBB /* Assets.xcassets */,
+				147E6F2E1C3E7F66004BDCBB /* LaunchScreen.storyboard */,
+				147E6F311C3E7F66004BDCBB /* Info.plist */,
+				147E6F291C3E7F66004BDCBB /* pointntap.xcdatamodeld */,
+				147E6F1D1C3E7F65004BDCBB /* Supporting Files */,
+			);
+			path = pointntap;
+			sourceTree = "<group>";
+		};
+		147E6F1D1C3E7F65004BDCBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				147E6F1E1C3E7F65004BDCBB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		147E6F391C3E7F66004BDCBB /* pointntapTests */ = {
+			isa = PBXGroup;
+			children = (
+				147E6F3A1C3E7F66004BDCBB /* pointntapTests.m */,
+				147E6F3C1C3E7F66004BDCBB /* Info.plist */,
+			);
+			path = pointntapTests;
+			sourceTree = "<group>";
+		};
+		147E6F441C3E7F66004BDCBB /* pointntapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				147E6F451C3E7F66004BDCBB /* pointntapUITests.m */,
+				147E6F471C3E7F66004BDCBB /* Info.plist */,
+			);
+			path = pointntapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147E6F191C3E7F65004BDCBB /* pointntap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147E6F4A1C3E7F66004BDCBB /* Build configuration list for PBXNativeTarget "pointntap" */;
+			buildPhases = (
+				147E6F161C3E7F65004BDCBB /* Sources */,
+				147E6F171C3E7F65004BDCBB /* Frameworks */,
+				147E6F181C3E7F65004BDCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pointntap;
+			productName = pointntap;
+			productReference = 147E6F1A1C3E7F65004BDCBB /* pointntap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		147E6F351C3E7F66004BDCBB /* pointntapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147E6F4D1C3E7F66004BDCBB /* Build configuration list for PBXNativeTarget "pointntapTests" */;
+			buildPhases = (
+				147E6F321C3E7F66004BDCBB /* Sources */,
+				147E6F331C3E7F66004BDCBB /* Frameworks */,
+				147E6F341C3E7F66004BDCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147E6F381C3E7F66004BDCBB /* PBXTargetDependency */,
+			);
+			name = pointntapTests;
+			productName = pointntapTests;
+			productReference = 147E6F361C3E7F66004BDCBB /* pointntapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		147E6F401C3E7F66004BDCBB /* pointntapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147E6F501C3E7F66004BDCBB /* Build configuration list for PBXNativeTarget "pointntapUITests" */;
+			buildPhases = (
+				147E6F3D1C3E7F66004BDCBB /* Sources */,
+				147E6F3E1C3E7F66004BDCBB /* Frameworks */,
+				147E6F3F1C3E7F66004BDCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147E6F431C3E7F66004BDCBB /* PBXTargetDependency */,
+			);
+			name = pointntapUITests;
+			productName = pointntapUITests;
+			productReference = 147E6F411C3E7F66004BDCBB /* pointntapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147E6F121C3E7F65004BDCBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "James Hornitzky";
+				TargetAttributes = {
+					147E6F191C3E7F65004BDCBB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					147E6F351C3E7F66004BDCBB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 147E6F191C3E7F65004BDCBB;
+					};
+					147E6F401C3E7F66004BDCBB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 147E6F191C3E7F65004BDCBB;
+					};
+				};
+			};
+			buildConfigurationList = 147E6F151C3E7F65004BDCBB /* Build configuration list for PBXProject "pointntap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147E6F111C3E7F65004BDCBB;
+			productRefGroup = 147E6F1B1C3E7F65004BDCBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147E6F191C3E7F65004BDCBB /* pointntap */,
+				147E6F351C3E7F66004BDCBB /* pointntapTests */,
+				147E6F401C3E7F66004BDCBB /* pointntapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147E6F181C3E7F65004BDCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147E6F301C3E7F66004BDCBB /* LaunchScreen.storyboard in Resources */,
+				147E6F2D1C3E7F66004BDCBB /* Assets.xcassets in Resources */,
+				147E6F281C3E7F65004BDCBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147E6F341C3E7F66004BDCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147E6F3F1C3E7F66004BDCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147E6F161C3E7F65004BDCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147E6F251C3E7F65004BDCBB /* ViewController.m in Sources */,
+				147E6F221C3E7F65004BDCBB /* AppDelegate.m in Sources */,
+				147E6F1F1C3E7F65004BDCBB /* main.m in Sources */,
+				147E6F2B1C3E7F66004BDCBB /* pointntap.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147E6F321C3E7F66004BDCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147E6F3B1C3E7F66004BDCBB /* pointntapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147E6F3D1C3E7F66004BDCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147E6F461C3E7F66004BDCBB /* pointntapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147E6F381C3E7F66004BDCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147E6F191C3E7F65004BDCBB /* pointntap */;
+			targetProxy = 147E6F371C3E7F66004BDCBB /* PBXContainerItemProxy */;
+		};
+		147E6F431C3E7F66004BDCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147E6F191C3E7F65004BDCBB /* pointntap */;
+			targetProxy = 147E6F421C3E7F66004BDCBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		147E6F261C3E7F65004BDCBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147E6F271C3E7F65004BDCBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		147E6F2E1C3E7F66004BDCBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147E6F2F1C3E7F66004BDCBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147E6F481C3E7F66004BDCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		147E6F491C3E7F66004BDCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147E6F4B1C3E7F66004BDCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pointntap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.leafcutter.pointntap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		147E6F4C1C3E7F66004BDCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pointntap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.leafcutter.pointntap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		147E6F4E1C3E7F66004BDCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pointntapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.leafcutter.pointntapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pointntap.app/pointntap";
+			};
+			name = Debug;
+		};
+		147E6F4F1C3E7F66004BDCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pointntapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.leafcutter.pointntapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pointntap.app/pointntap";
+			};
+			name = Release;
+		};
+		147E6F511C3E7F66004BDCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pointntapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.leafcutter.pointntapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pointntap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		147E6F521C3E7F66004BDCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pointntapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.leafcutter.pointntapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pointntap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147E6F151C3E7F65004BDCBB /* Build configuration list for PBXProject "pointntap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147E6F481C3E7F66004BDCBB /* Debug */,
+				147E6F491C3E7F66004BDCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147E6F4A1C3E7F66004BDCBB /* Build configuration list for PBXNativeTarget "pointntap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147E6F4B1C3E7F66004BDCBB /* Debug */,
+				147E6F4C1C3E7F66004BDCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		147E6F4D1C3E7F66004BDCBB /* Build configuration list for PBXNativeTarget "pointntapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147E6F4E1C3E7F66004BDCBB /* Debug */,
+				147E6F4F1C3E7F66004BDCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		147E6F501C3E7F66004BDCBB /* Build configuration list for PBXNativeTarget "pointntapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147E6F511C3E7F66004BDCBB /* Debug */,
+				147E6F521C3E7F66004BDCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		147E6F291C3E7F66004BDCBB /* pointntap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				147E6F2A1C3E7F66004BDCBB /* pointntap.xcdatamodel */,
+			);
+			currentVersion = 147E6F2A1C3E7F66004BDCBB /* pointntap.xcdatamodel */;
+			path = pointntap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 147E6F121C3E7F65004BDCBB /* Project object */;
+}
