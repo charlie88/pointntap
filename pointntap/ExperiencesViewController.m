@@ -6,13 +6,13 @@
 //  Copyright © 2016 James Hornitzky. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ExperiencesViewController.h"
 
-@interface ViewController ()
+@interface ExperiencesViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ExperiencesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
